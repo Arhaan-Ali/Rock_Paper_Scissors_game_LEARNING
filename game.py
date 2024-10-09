@@ -22,6 +22,8 @@ if Open.upper() == "YES" :
             score += 1
             print(f"Your Score : {score}")
             print(f"My Score : {comp_score}")
+        elif user_choice != "ROCK" or "SCISSORS" or "PAPER" :
+           print("Error Not A Valid Choice ")
         else:
             print("I Won! This Round")
             comp_score +=1
